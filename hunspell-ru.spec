@@ -1,7 +1,7 @@
 Name: hunspell-ru
 Summary: Russian hunspell dictionaries
 Version: 0.99g5
-Release: 5%{?dist}
+Release: 4%{?dist}
 Epoch: 1
 Source: http://releases.mozilla.org/pub/mozilla.org/addons/3703/russian_spellchecking_dictionary-0.4.4-fx+tb+sm.xpi
 Group: Applications/Text
@@ -41,9 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.99g5-5
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.99g5-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
